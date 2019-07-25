@@ -1,0 +1,287 @@
+/* font-family: 'Dokdo', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+body {
+    background-color: lightblue;
+    margin: 15px 45px 25px 45px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px lime;
+    font-size: 1rem;
+}
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    /* text-shadow: 1px 1px 1px lightsalmon; */
+}
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+}
+/* IMAGE:   FORMULAS FOR THE CIRCLE */
+#circleEquation1{
+    width: 80%;
+    height: auto;
+    border: 1px darkblue double;
+    margin-top: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* TEXT-    EXPLANATION BELOW THE IMAGE */
+#explanation {
+    border: 2px darkblue solid;
+    padding: 0px 25px 0px 25px;
+    color: black;
+    text-shadow: 1px 1px 1px lime;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* IMAGE-  EXAMPLE 1 IMAGE r=5, c=(0,0) */
+#example1 {
+    width: 30%;
+    height: auto;
+    border: 2px darkblue solid;
+}
+/* TEXT-  TO THE RIGHT OF EXAMPLE 1: "THE CIRCLE SHOWN IN...." */
+#img_float {
+    float: right;
+}
+/* TEXT-BOX CONTAINING THE SOLUTION TO PROB. 1 */
+#solutionProblem1 {
+    border: 2px lime solid;
+    outline: 1px black solid;
+    background-color: darkblue;
+    font-size: 1rem;
+    color: lime;
+    width: 60%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 2%;
+    margin-top: -9%;
+    float: right;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+/* TEXT    SECOND EXAMPLE PROBLEM  */
+#example2 {
+    margin-top: 15%;
+    width: 30%;
+    height: auto;
+}
+/* IMAGE2  EXAMPLE PROBLEM #2 */
+#image2 {
+    width: 100%;
+    height: auto;
+    border: 2px darkblue solid;
+}
+/* TEXT-  TO THE RIGHT OF EXAMPLE 2: "THE CIRCLE SHOWN IN...." */
+#img2_float {
+    float: right;
+    margin-left: 80%;
+}
+/* TEXT-BOX CONTAINING THE SOLUTION TO PROB. 1 */
+#solutionProblem2 {
+    border: 2px lime solid;
+    outline: 1px black solid;
+    background-color: darkblue;
+    font-size: 1rem;
+    color: lime;
+    width: 60%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 2%;
+    margin-top: -9%;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+/* TEXT:  "EXAMPLE #2" */
+#example2Heading {
+    margin-top: 80px;
+}
+/* IMAGE:    FIRST STUDENT PRACTICE PROBLEM: R=5, H=6, K=7 */
+#try1, #try2 {
+    width: 20%;
+    height: auto;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+}
+/* BUTTON: CHECK FIRST PROBLEM'S ANSWER */
+#submitButton {
+    float: right;
+    width: 20%;
+    height: 70px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: -200px;
+    color: darkslategray;
+}
+#submitButton:hover {
+    border: 2px lightslategrey solid;
+    outline: 1px black solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+/* ANSWER FOR  ONCLICK FOR STUDENT PRACTICE PROB #1 */
+#demo, #demo2 {
+    float: right;
+    width: 25%;
+    height: 45px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -200px;
+    color: blue;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+/* BUTTON: DETAILED SOLUTION    ABOUT FIRST PROBLEM'S ANSWER */
+#submitButton3 {
+    float: right;
+    width: 20%;
+    height: 70px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: -105px;
+    color: darkslategray;
+}
+#submitButton3:hover {
+    border: 2px lightslategrey solid;
+    outline: 1px black solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+#demo3 {
+    width: 80%;
+    height: auto;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -30px;
+    color: blue;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+/* BUTTON:  CLOSE DETAILED SOLUTION */
+#submitButton4 {
+    float: right;
+    width: 20%;
+    height: 70px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+    color: darkslategray;
+}
+#submitButton4:hover {
+    border: 2px lightslategrey solid;
+    outline: 1px black solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+#demo4 {
+    width: 100%;
+    height: auto;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -30px;
+    color: blue;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+/* BUTTON:  REVEAL SOLUTION TO PROBLEM #4 r=7, h=15, k=-12 */
+#submitButton6 {
+    float: right;
+    width: 20%;
+    height: 70px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: -200px;
+    color: darkslategray;
+}
+#submitButton6:hover {
+    border: 2px lightslategrey solid;
+    outline: 1px black solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+#demo6 {
+    float: right;
+    width: 25%;
+    height: 45px;
+    border: 2px darkslategray solid;
+    outline: 1px lime solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -200px;
+    color: blue;
+    background-color: lightgray;
+    text-shadow: 1px 1px 2px #CCCCFF;
+}
+footer {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

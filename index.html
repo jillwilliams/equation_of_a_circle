@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+2197 U+FE0E UTF-8: E2 86 97 EF B8 8E" 
+    Unicode="U+2198 U+FE0E, UTF-8: E2 86 98 EF B8 8E" 
+    Unicode="U+220F, UTF-8: E2 88 8F">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Dokdo|Indie+Flower|Shadows+Into+Light" rel="stylesheet">
+    <title>Equation of a Circle</title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <h1>
+        The Equation of a Circle
+    </h1>
+    <p>
+        The Equation of a Circle centered at the origin (0, 0)
+        and the Equation of a Circle whose center is not at the origin are 
+        very similar equations. <br><br> When there has been a shift and the center of 
+        circle is no longer positioned at (0, 0), then the Standard Form of the 
+        Equation of a circle must be used. <br> If the circle's center is at (0, 0) 
+        the first equation should be used for ease of calculation. <br>  
+        <img src="images/circleEquation1.png" alt="equation" id="circleEquation1" />
+    </p>
+    <div id="explanation">
+        <p>
+            The formula for the Equation of a Circle is the same each time,
+            just like the slope-intercept equation, y = mx + b. <br> For the circle's equation, 
+            the goal is to substitute the values of each variable into the formula. <br><br>
+            After substituting for the center's coordinates (h, k) on the left side of the equation, 
+            you do not touch the left-side of the equation anymore; you have your answer
+            just by substituting. <br><br> 
+            It is important to understand that the coordinates of
+            the center of the circle (h, k) is just an ordered pair of the form (x, y). The problem is 
+            we can't use variables (x, y) to represent the location of the center of the circle, because 
+            those variables have already been used in the formulas for the equation of a circle. 
+            Therefore, different variables were chosen to represent the coordinates of the circle's center. <br><br> 
+            Therefore, for a circle's center, the general format of an ordered pair (x, y) becomes (x, y) = (h, k); 
+            where x = h, and y = k. <br><br>
+            When substituting in the length of the circle's radius for variable r on the right-hand side of the equation, 
+            you will need to calculate the numerical value of r<sup>2</sup>.  The right-hand side of the 
+            equation's answer is represented as numerical value, not r<sup>2</sup>.  If you substitute the radius, 
+            but don't simplify its value, your answer will be wrong.
+            <br>
+            (*Careful! Recall: r<sup>2</sup> = (radius)x(radius), NOT (2)x(radius))
+        </p>
+    </div>
+    <br>
+    <div>
+        <p>
+            Let's look at a few examples of circles and their corresponding equations:
+            <br>
+            Example #1:
+        </p>
+        <img src="images/example1.png" alt="exam. 1" id="example1" />
+        <p id="img_float">
+            The circle shown in the image has a radius of 5 units <br> 
+            and its center(h, k) is at (0, 0). 
+            Therefore, r = 5, h = 0, and k = 0.
+            <br><br>
+            The Standard Form for the Equation of a Circle is: <br>
+            <span style="align-content: center">
+                (x - h)<sup>2</sup> + (y - k)<sup>2</sup> = r<sup>2</sup>
+            </span>
+            <p id="solutionProblem1">
+                Step 1: Substitute h, k, and r into the equation: <br>
+                (x - 0)<sup>2</sup> + (y - 0)<sup>2</sup> = 5<sup>2</sup><br>
+                Step 2: Simplify inside of the parentheses and also calculate the radius squared: <br>
+                x<sup>2</sup> + y<sup>2</sup> = 25 
+                <br><br>
+                The Answer is: <br>
+                x<sup>2</sup> + y<sup>2</sup> = 25
+            </p>
+        </p>
+    </div>
+
+<!-- EXAMPLE 3////////////////////////////////////////// -->
+    <div>
+        <p id="example2Heading">
+            Example #2:
+        </p>
+        <img src="images/example2.png" alt="exam. 1" id="example1" />
+        <p id="img_float">
+            The circle shown in the image has a radius of 10 units <br> 
+            and its center(h, k) is at (4, 3). 
+            Therefore, r = 10, h = 4, and k = 3.
+            <br><br>
+            The Standard Form for the Equation of a Circle is: <br>
+            <span style="align-content: center">
+                (x - h)<sup>2</sup> + (y - k)<sup>2</sup> = r<sup>2</sup>
+            </span>
+            <p id="solutionProblem1">
+                Step 1: Substitute h, k, and r into the equation: <br>
+                (x - 4)<sup>2</sup> + (y - 3)<sup>2</sup> = 10<sup>2</sup><br>
+                Step 2: Simplify inside of the parentheses and also calculate the radius squared: <br>
+                (x - 4)<sup>2</sup> + (y - 3)<sup>2</sup> = 100 
+                <br><br>
+                The Answer is: <br>
+                (x - 4)<sup>2</sup> + (y - 3)<sup>2</sup> = 100 <br>
+            </p>
+        </p>
+    </div>
+    <br>
+    <div>
+        <p>
+            Below are some example problems for you to try. Calculate your answer on a seperate
+            sheet of paper. When you have your solution, click the "Reveal Solution" button to see
+            if you got it right. Good luck!
+        </p>
+<!-- STUDENT PRACTICE PROBLEM #1 -->
+        <img src="images/try1.png" alt="first prob" id="try1" />
+        <p id="img_float">
+            <p id="demo"></p>
+                <button type="submit" id="submitButton" onclick="myCalc1( )">
+                    Reveal Solution
+                </button>
+        </p>
+<!-- STUDENT PRACTICE PROBLEM #2 -->
+        <img src="images/try2.png" alt="second prob" id="try1" />
+        <p id="img_float">
+            <p id="demo2"></p>
+                <button type="submit" id="submitButton" onclick="myCalc2( )">
+                    Reveal Solution
+                </button>
+        </p>
+<!-- MORE INFO SECTION  SOLUTION  -->
+        <div> 
+            <button type="submit" id="submitButton3" onclick="myCalc3( )">
+                    Detailed Solution
+            </button>
+            <br><br>
+            <p id="demo3"></p>
+            <button type="submit" id="submitButton4" onclick="myCalc4( )">
+                Close
+            </button>
+        </div>
+    <br>
+<!-- STUDENT PRACTICE PROBLEM #3 -->
+    <div>
+        <img src="images/try3.png" alt="third prob" id="try1" />
+        <button type="submit" id="submitButton5" onclick="myCalc5( )">
+            Reveal Solution
+        </button>
+        <p id="demo5"></p>
+        <p>
+            Notice when substituting in the value of h = 0, (x - h) becomes (x - 0)<sup>2</sup>. <br>
+            <br>
+            As part of 'Step 2' and simplifying inside the parentheses, notice (x - 0) means any number (ie. variable 'x') minus zero. So (x - 0)<sup>2</sup>
+            becomes (x)<sup>2</sup> which becomes x<sup>2</sup> because the parentheses are no longer necessary. Leaving the answer unsimplified will
+            generate a wrong answer. 
+            <br><br> 
+            You should never answer (x - 0)<sup>2</sup> or (y - 0)<sup>2</sup>. 
+            Always rewrite the terms as 
+            x<sup>2</sup> or  y<sup>2</sup>.
+        </p>
+    </div>
+<!-- STUDENT PRACTICE PROBLEM #4 -->
+    <div>
+        <img src="images/try4.png" alt="fourth prob" id="try1" />
+        <button type="submit" id="submitButton6" onclick="myCalc6( )">
+            Reveal Solution
+        </button>
+        <p id="demo6"></p>
+        <p>
+            Notice that when an ordered pair is positive (h = 15) the subtract sign remains
+            before and after the substitution since the number you are substituting is irrelevant 
+            to the formula having a subtract sign.  Only if a coordinate is negative (k = -12) does
+            the subtract sign matter. And as discussed above, substituting a negative number will
+            always result in an addition sign inside the parentheses.
+        </p>
+    </div>
+
+    <footer>
+            ©2019 ALL THINGS MATH   ALL RIGHTS RESERVED
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
