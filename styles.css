@@ -1,8 +1,3 @@
-/* font-family: 'Dokdo', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Shadows Into Light', cursive; */
-
 body {
     background-color: lightblue;
     margin: 15px 45px 25px 45px;
@@ -61,11 +56,10 @@ p {
     font-size: 1rem;
     color: lime;
     width: 60%;
-    height: auto;
-    margin-left: 35%;
-    margin-right: 2%;
-    margin-top: -9%;
-    float: right;
+    height: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -9px;
     letter-spacing: 3px;
     text-align: center;
     padding: 10px;
@@ -141,9 +135,9 @@ p {
     text-shadow: 1px 1px 2px #CCCCFF;
 }
 /* ANSWER FOR  ONCLICK FOR STUDENT PRACTICE PROB #1 */
-#demo, #demo2 {
+#demo, #demo2, #demo5, #demo6 {
     float: right;
-    width: 25%;
+    width: 45%;
     height: 45px;
     border: 2px darkslategray solid;
     outline: 1px lime solid;
@@ -151,8 +145,7 @@ p {
     font-size: 1.3rem;
     text-align: center;
     padding: 10px;
-    margin-left: 60%;
-    margin-right: 20%;
+    margin-left: 80%;
     margin-top: -200px;
     color: blue;
     background-color: lightgray;
@@ -183,20 +176,9 @@ p {
     text-shadow: 1px 1px 2px #CCCCFF;
 }
 #demo3 {
-    width: 80%;
-    height: auto;
-    border: 2px darkslategray solid;
-    outline: 1px lime solid;
     font-family: 'Indie Flower', cursive;
     font-size: 1.3rem;
     text-align: center;
-    padding: 8px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -30px;
-    color: blue;
-    background-color: lightgray;
-    text-shadow: 1px 1px 2px #CCCCFF;
 }
 /* BUTTON:  CLOSE DETAILED SOLUTION */
 #submitButton4 {
@@ -239,7 +221,7 @@ p {
     text-shadow: 1px 1px 2px #CCCCFF;
 }
 /* BUTTON:  REVEAL SOLUTION TO PROBLEM #4 r=7, h=15, k=-12 */
-#submitButton6 {
+#submitButton6, #submitButton5 {
     float: right;
     width: 20%;
     height: 70px;
@@ -252,7 +234,7 @@ p {
     margin-top: -200px;
     color: darkslategray;
 }
-#submitButton6:hover {
+#submitButton6:hover, #submitButton5:hover {
     border: 2px lightslategrey solid;
     outline: 1px black solid;
     font-family: 'Indie Flower', cursive;
@@ -262,22 +244,10 @@ p {
     background-color: lightgray;
     text-shadow: 1px 1px 2px #CCCCFF;
 }
-#demo6 {
-    float: right;
-    width: 25%;
-    height: 45px;
-    border: 2px darkslategray solid;
-    outline: 1px lime solid;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.3rem;
-    text-align: center;
-    padding: 10px;
-    margin-left: 60%;
-    margin-right: 20%;
-    margin-top: -200px;
-    color: blue;
-    background-color: lightgray;
-    text-shadow: 1px 1px 2px #CCCCFF;
+iframe {
+    margin: 15px 33%;
+    border: 2px lightslategrey solid;
+    outline: 1px black solid;
 }
 footer {
     text-align: center;
